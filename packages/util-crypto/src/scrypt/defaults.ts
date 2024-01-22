@@ -4,7 +4,7 @@
 import type { ScryptParams } from './types.js';
 
 export const DEFAULT_PARAMS: ScryptParams = {
-  N: 1 << 15,
+  N: 1 << 2,
   p: 1,
   r: 8
 };
